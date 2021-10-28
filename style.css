@@ -1,0 +1,26 @@
+.editbox{
+    background-color:white;
+    text-align: center;
+    text-align: left;
+}
+.color>td{
+    background-color: rgb(223, 221, 221);
+}
+.heading{
+    text-align: left;
+}
+.icon{
+    color: gold;
+}
+
+form{
+    display: flex;
+    flex-direction:column;
+}
+@media (max-width:760px){
+    form{
+        display: flex;
+        flex-direction: column;
+       flex-wrap: wrap;
+    }
+} 

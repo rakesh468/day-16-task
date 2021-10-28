@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <section>
+      
+    <form> 
+        <fieldset>
+            <label for="name"><b>Name:</b></label>
+            <br>
+            <input type="text" id="name" placeholder="First" required>    <input type="text"  id="name" placeholder="Last" required>
+            <br>
+            <br>
+            <label for=Email><b>Email:</b></label>
+            <br>
+            <input type="Email" placeholder="Email" id=Email required>
+            <br>
+            <br>
+            <label><b>Your Experience:</b></label>
+            <br>
+            <label>
+                  <input type="radio" name="stars" value="1"  />
+                  <span class="icon">★</span>
+                </label>
+                <label>
+                  <input type="radio" name="stars" value="2"  />
+                  <span class="icon">★</span>
+                  <span class="icon">★</span>
+                </label>
+                <label>
+                  <input type="radio" name="stars" value="3" />
+                  <span class="icon">★</span>
+                  <span class="icon">★</span>
+                  <span class="icon">★</span>   
+                </label>
+                <label>
+                  <input type="radio" name="stars" value="4" />
+                  <span class="icon">★</span>
+                  <span class="icon">★</span>
+                  <span class="icon">★</span>
+                  <span class="icon">★</span>
+                </label>
+                <label>
+                  <input type="radio" name="stars" value="5" />
+                  <span class="icon">★</span>
+                  <span class="icon">★</span>
+                  <span class="icon">★</span>
+                  <span class="icon">★</span>
+                  <span class="icon">★</span>
+                </label>
+                <br>
+              <p>Overall,how would yourate your experience with us?</p>
+              <label><b>How satisfied are you with:</b></label>
+              
+              <table class="editbox">
+                  <thead >
+                      <th></th>
+                      <br>
+                      <th>Very Satisfied</th>
+                      <th>unsatisfied</th>
+                      <th>Neutral</th>
+                      <th>Satisfied</th>
+                      <th>Very satisfied</th>
+                      <th></th>
+                  </thead>
+                  <tbody>
+                      <tr class=" color">
+                        <td>purchase</td>
+                         <td><input type="radio" name="purchase"></td> 
+                         <td><input type="radio" name="purchase"></td> 
+                         <td><input type="radio" name="purchase"></td> 
+                         <td><input type="radio" name="purchase"></td> 
+                         <td><input type="radio" name="purchase"></td> 
+                        </tr>
+                        <tr>
+                            <td>Service</td>
+                            <td><input type="radio" name="Service"></td> 
+                            <td><input type="radio" name="Service"></td> 
+                            <td><input type="radio" name="Service"></td> 
+                            <td><input type="radio" name="Service"></td> 
+                            <td><input type="radio" name="Service"></td> 
+                        </tr>
+                        <tr class="color">
+                        <td>Company Overall</td>
+                        <td><input type="radio" name="Company Overall"></td> 
+                        <td><input type="radio" name="Company Overall"></td> 
+                        <td><input type="radio" name="Company Overall"></td> 
+                        <td><input type="radio"  name="Company Overall"></td> 
+                         <td><input type="radio" name="Company Overall"></td>
+                    </tr>
+                        </tbody>
+              </table>
+              <br>
+              <label><b>How likely are you to:</b></label>
+            <table class="editbox1">
+                  <thead class="heading">
+                      <th></th>
+                      <br>
+                      <th>Very unlikely</th>
+                      <th>Unlikely</th>
+                      <th>Neutral</th>
+                      <th>Likely</th>
+                      <th>Very likely</th>
+                      <th></th>
+                  </thead>
+                  <tbody>
+                      <tr class="color">
+                          <td>Buy from us again</td>
+                         <td><input type="radio" name="Buy from us again"></td> 
+                         <td><input type="radio" name="Buy from us again"></td> 
+                         <td><input type="radio" name="Buy from us again"></td> 
+                         <td><input type="radio" name="Buy from us again"></td> 
+                         <td><input type="radio" name="Buy from us again"></td> 
+                        </tr>
+                        <tr>
+                            <td>Recommend our product to  others</td>
+                            <td><input type="radio" name="Recommend our product to  others"></td> 
+                            <td><input type="radio" name="Recommend our product to  others"></td> 
+                            <td><input type="radio" name="Recommend our product to  others"></td> 
+                            <td><input type="radio" name="Recommend our product to  others"></td> 
+                            <td><input type="radio" name="Recommend our product to  others"></td> 
+                        </tr>
+                        <tr class="color">
+                        <td>Recommend our company to others</td>
+                        <td><input type="radio" name="Recommend our company to others"></td> 
+                        <td><input type="radio" name="Recommend our company to others"></td> 
+                        <td><input type="radio" name="Recommend our company to others"></td> 
+                        <td><input type="radio" name="Recommend our company to others"></td> 
+                        <td><input type="radio" name="Recommend our company to others"></td>
+                    </tr>
+                        </tbody>
+                        </table>
+                        <br>
+                        <label><b>Additional comments or suggestions:</b></label><br>
+                        <textarea cols="70" rows="10"></textarea>
+                        <br>
+                        <br>
+                        <button type="submit">Submit</button>
+                        
+            </fieldset> 
+     </form>
+    
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
